@@ -43,5 +43,5 @@ app.use('/users', usersRouter);
 app.use('/posts', postsRouter);
 
 app.listen(port, () =>
-  console.log(`Running on http://localhost:${port}`)
+  console.log(`Server is running on http://localhost:${port}`)
 );
